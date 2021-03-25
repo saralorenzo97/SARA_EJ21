@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color:thistle;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+.contentexto{
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoinicial{
+    width: 60%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.textoinicial h3{
+    padding-bottom: 5px;
+}
+.cajaicons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cajaicons i{
+    padding: 5px;
+    border: 1px solid black;
+}
+.colortwitter{
+    color: rgb(49,162,207);
+    font-size: 30px;
+}
+
+.colorface{
+    color: blue;
+    font-size: 30px;
+}
+
+.colorwhats{
+    color: chartreuse;
+    font-size: 30px;
+}
+
+.colorinsta{
+    font-size: 30px;
+    color: fuchsia;
+}
+
+/***** section galeria*****/
+
+#galeria{
+    width: 100%;
+    height: 100vh;
+    background-color: thistle;
+}
+
+.cajon{
+    border: 1px solid rgb(255, 0, 0);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajitas{
+    border: 1px solid black;
+    width: 35%;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajitas img{
+    width: 100%;
+    height: 100%;
+}
+</style>
+<body>
+<section id="inicio">
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Galería</a>
+        <a href="#">Tienda</a>
+        <a href="#">Muestras</a>
+        <a href="#">Comprar</a>
+    </nav>
+
+    <div class="contentexto">
+        <div class="textoinicial">
+            <h3>Talavera en fiestas </i></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam deleniti harum, laborum placeat ducimus eos hic. Cum assumenda dolor veniam dolorum ratione? Sit, quidem optio dolores facilis beatae sequi commodi.</p>
+        
+            <div class="cajaicons">
+                <i class="fab fa-twitter colortwitter"></i>
+                <i class="fab fa-facebook colorface"></i>
+                <i class="fab fa-whatsapp-square colorwhats"></i>
+                <i class="fab fa-instagram colorinsta"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="galeria">
+    <div class="cajon">
+        <div class="cajitas">
+            <img src="img/img1.jpg" alt="">
+        </div>
+        <div class="cajitas">
+            <img src="img/img1.jpg" alt="">
+        </div>
+        <div class="cajitas">
+            <img src="img/img1.jpg" alt="">
+        </div>
+    </div>
+</section>
+    
+</body>
+</html>
